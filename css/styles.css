@@ -105,7 +105,11 @@ ul {
   margin-left: 94px;
 }
 .footer-contacts .item {
+  width: 231px;
   margin-top: 9px;
+}
+.footer-social-link {
+  width: 206px;
 }
 .footer-titles {
   font-style: normal;
@@ -144,6 +148,10 @@ ul {
   line-height: 2;
   text-align: center;
   color: var(--sub-main-color-white);
+}
+/* рассылка */
+.mailing {
+  width: 570px;
 }
 /* ----селекторы страницы Index.html----- */
 .section-title {
@@ -196,6 +204,9 @@ ul {
   display: flex;
   padding-top: 95px;
 }
+.feature li {
+  width: 270px;
+}
 .feature li + li {
   margin-left: 30px;
 }
@@ -226,6 +237,9 @@ ul {
   padding-top: 95px;
   padding-bottom: 95px;
 }
+.what-are-we-doing-list {
+  width: 370px;
+}
 .what-are-we-doing-text {
   font-weight: 700;
   font-size: 14px;
@@ -253,6 +267,9 @@ ul {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+}
+.our-team li {
+  width: 270px;
 }
 .our-team li + li {
   margin-left: 30px;
@@ -295,6 +312,7 @@ ul {
 }
 /* ----Селекторы страницы portfolio.html---- */
 .portfolio-box {
+  padding-top: 93px;
   padding-bottom: 94px;
 }
 /* секция фильтров */
@@ -302,7 +320,6 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 52px;
-  margin-top: 93px;
 }
 .filters-flex li + li {
   margin-left: 8px;
